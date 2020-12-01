@@ -1,0 +1,155 @@
+{
+  "logoImage": {
+    "type": "image-input",
+    "label": "Logo Image",
+   	"group": "Global" 
+   },
+  "rotatorInterval": {
+    "type": "number",
+    "label": "Rotator Interval (Seconds)",
+    "group": "Global"
+  },
+  "colorPrimary": {
+    "type": "colorpicker",
+    "label": "Primary color",
+    "value": "#2200FF",
+    "group": "Global"
+  },
+  "colorSecondary": {
+    "type": "colorpicker",
+    "label": "Secondary color",
+    "value": "#FFE4A8",
+    "group": "Global"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font Size (px)",
+    "group": "Global"
+  },
+  "fontColorPrimary": {
+    "type": "colorpicker",
+    "label": "Primary font color",
+    "value": "#FFE4A8",
+    "group": "Global"
+  },
+  "fontColorSecondary": {
+    "type": "colorpicker",
+    "label": "Secondary font color",
+    "value": "#2200FF",
+    "group": "Global"
+  },
+  "barWidth": {
+    "type": "number",
+    "label": "Bar width (px)",
+    "group": "Global"
+  },
+  "rotatorPaddingLeft": {
+    "type": "number",
+    "label": "Rotator padding left (px)",
+    "group": "Global"
+  },
+  "latestFollowerToggle": {
+    "type": "dropdown",
+    "label": "Display latest follower:",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    },
+    "group": "Followers"
+  },
+  "latestFollowerEmpty": {
+    "type": "text",
+    "label": "No latest follower text:",
+    "value": "No latest follower",
+    "group": "Followers"
+  },
+  "latestSubscriberToggle": {
+    "type": "dropdown",
+    "label": "Display latest subscriber:",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    },
+    "group": "Subscribers"
+  },
+  "latestSubscriberEmpty": {
+    "type": "text",
+    "label": "No latest subscriber text:",
+    "value": "No latest subscriber",
+    "group": "Subscribers"
+  },
+  "latestTipToggle": {
+    "type": "dropdown",
+    "label": "Display latest tip:",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    },
+    "group": "Tips"
+  },
+  "latestTipEmpty": {
+    "type": "text",
+    "label": "No latest tip text:",
+    "value": "No latest tip",
+    "group": "Tips"
+  },
+  "latestCheerToggle": {
+    "type": "dropdown",
+    "label": "Display latest cheer:",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    },
+    "group": "Cheers"
+  },
+  "latestCheerEmpty": {
+    "type": "text",
+    "label": "No latest cheer text:",
+    "value": "No latest cheer",
+    "group": "Cheers"
+  },
+  "latestHostToggle": {
+    "type": "dropdown",
+    "label": "Display latest host:",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    },
+    "group": "Hosts"
+  },
+  "latestHostEmpty": {
+    "type": "text",
+    "label": "No latest host text:",
+    "value": "No latest host",
+    "group": "Hosts"
+  },
+  "latestRaidToggle": {
+    "type": "dropdown",
+    "label": "Display latest raid:",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    },
+    "group": "Raids"
+  },
+  "latestRaidEmpty": {
+    "type": "text",
+    "label": "No latest raid text:",
+    "value": "No latest raid",
+    "group": "Raids"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Alert and Rotator Widget"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "YMCClay"
+  }
+}
